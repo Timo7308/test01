@@ -1,0 +1,295 @@
+/* Ensures smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Styles for the homepage container */
+.home-container {
+  background-image: url('./Images/stars.jpg'); /* Background image for the homepage */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating the background image */
+  background-attachment: fixed; /* Optional: Keep background image fixed while scrolling */
+  padding: 20px; /* Padding around the content */
+  min-height: 100vh; /* Ensures the container is at least the height of the viewport */
+  height: 100vh; /* Ensures the container covers the entire viewport height */
+  display: flex; /* Center content horizontally and vertically */
+  flex-direction: column; /* Align content in a column */
+}
+
+/* Styles for the hero section within the homepage */
+.hero-section {
+  text-align: left;
+  max-width: 600px;
+  margin: auto; /* Centers the hero section horizontally */
+  padding: 20px; /* Padding around the text */
+}
+/* About Me Heading */
+.about-me-heading {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: #333;
+}
+/* About Me Section Container */
+.about-me-section {
+  height: 100vh;
+  display: flex; /* Enable flexbox */
+  justify-content: space-between; /* Space out the content */
+  align-items: flex-start; /* Align items to the top */
+  padding: 5vw 2vw; /* Padding around the container */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  width: 100%;
+  max-width: 1200px; /* Constrain the max width of the container */
+  margin: auto; /* Center container horizontally */
+}
+
+
+/* Left Content Styling */
+.left-skillbar {
+  flex: 1; /* Take up equal space */
+  max-width: 50%; /* Constrain to 50% width */
+  padding-right: 20px; /* Space between left and right content */
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: flex-start; /* Align items to the left */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Profile Picture */
+.about-me-picture {
+  width: 200px; /* Adjust the size of the profile picture */
+  height: 250px;
+  border-radius: 10%; /* Rounded corners */
+  margin-bottom: 20px; /* Space below the image */
+}
+
+/* About Me Text */
+.about-me-text {
+  color: #030202;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+
+/* Right Content Styling */
+.right-skillbar {
+  flex: 1; /* Take up equal space */
+  max-width: 50%; /* Constrain to 50% width */
+  display: flex;
+  flex-direction: column; /* Stack skill bars vertically */
+  align-items: flex-end; /* Align skill bars to the right */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  padding-left: 20px; /* Space between right content and the edge */
+}
+
+/* Skill Bars Styling */
+.skill-bars {
+  width: 100%; /* Full width of the container */
+}
+
+/* Skill Bar Styling */
+.skill-bar {
+  width: 100%; /* Full width of the skill bars container */
+  margin-bottom: 25px; /* Space between skill bars */
+}
+
+.progress-bar {
+  background-color: #e0e0e0; /* Light grey background for the progress bar */
+  border-radius: 25px;
+  overflow: hidden;
+  height: 25px;
+  position: relative;
+  width: 100%; /* Ensure the progress bar uses the full width of its container */
+}
+
+.progress {
+  background-color: #61dafb; /* Progress color */
+  height: 100%;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+}
+
+/* Timeline Section */
+.timeline-wrapper {
+  background-color: #f0f0f0; /* Light yellow background for the Timeline section */
+  padding: 20px; /* Optional padding around the container */
+  width: 100%; /* Ensure full width of the wrapper containers */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.timeline-heading {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Timeline Container */
+.timeline {
+  padding-bottom: 100px;
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Timeline Line */
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: #00796b;
+  top: 0;
+  bottom: 0;
+  left: 50%; /* Adjust this value to move the line to the right */
+}
+
+/* Timeline Items */
+.timeline-item {
+  padding: 20px 40px;
+  position: relative;
+  width: 45%; /* Adjust width as needed */
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Optional spacing between items */
+}
+
+/* Positioning Timeline Items */
+.timeline-item:nth-child(odd) {
+  left: -4%; /* Move items on the left further left */
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%; /* Move items on the right further right */
+}
+
+/* Connecting the Timeline Items to the Line */
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 15px;
+  background-color: white;
+  border: 4px solid #00796b;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Adjust Positioning of the Dots */
+.timeline-item:nth-child(odd)::after {
+  right: -13px; /* Adjust dot position for left items */
+}
+
+.timeline-item:nth-child(even)::after {
+  left: -13px; /* Adjust dot position for right items */
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+  color: #00796b;
+}
+
+.timeline-content p {
+  margin: 0;
+  color: #666;
+}
+
+/* Headings Styling */
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #1b1b1b; /* White text color */
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #ffffff; /* White text color */
+}
+
+h3 {
+  text-align: left;
+}
+
+/* Paragraph Styling */
+p {
+  font-size: 1.2em;
+  color: #080808; /* Text color */
+  margin-bottom: 20px;
+}
+
+/* Call-to-Action Button Styling */
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(2, 122, 80); /* Bright green button */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: rgb(55, 151, 86); /* Darker green on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .about-me-section {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center-align content */
+    height: auto; /* Let the height adjust to content */
+  }
+
+  .left-skillbar, .right-skillbar {
+    max-width: 100%; /* Full width for both content areas */
+    padding: 0; /* Remove padding */
+    align-items: center; /* Center align content */
+  }
+
+  .right-skillbar {
+    margin-top: 20px; /* Add margin between sections */
+    align-items: center; /* Center-align skill bars */
+    width:80%;
+  }
+
+  .about-me-picture {
+    width: 20vw; /* Adjust size for smaller devices */
+    height: auto; /* Let height adjust proportionally */
+  }
+
+  .about-me-text, .skill-bars {
+    text-align: center; /* Center-align text and skill bars */
+  }
+
+  .skill-bar {
+    width: 100%; /* Make the skill bars wider on smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .about-me-picture {
+    width: 30vw; /* Further adjust size for very small devices */
+    height: auto; /* Let height adjust proportionally */
+  }
+
+  .about-me-text {
+    margin-right: 0; /* Remove right margin for better spacing */
+  }
+
+  .right-skillbar {
+    margin-top: 10px; /* Adjust margin for mobile devices */
+    width:80%;
+  }
+
+  .skill-bar {
+    width: 100%; /* Make the skill bars full-width on very small screens */
+  }
+}
