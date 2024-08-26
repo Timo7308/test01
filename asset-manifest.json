@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/timos-website1/static/css/main.d89a584e.css",
+    "main.js": "/timos-website1/static/js/main.43e4bad3.js",
+    "static/js/453.0dbf037c.chunk.js": "/timos-website1/static/js/453.0dbf037c.chunk.js",
+    "static/media/space-explorer.jpg": "/timos-website1/static/media/space-explorer.60c06d828cc5c9cb5466.jpg",
+    "static/media/calculator.mp4": "/timos-website1/static/media/calculator.9fd96da8061300662981.mp4",
+    "static/media/space-explorer-1.jpg": "/timos-website1/static/media/space-explorer-1.4a9f83206b53fad4a5be.jpg",
+    "static/media/stars.jpg": "/timos-website1/static/media/stars.cad7e2dcfa7ceb06dbd7.jpg",
+    "static/media/calculator-idea.png": "/timos-website1/static/media/calculator-idea.b6a91c5a0c46b53cb5a9.png",
+    "static/media/online-shop.png": "/timos-website1/static/media/online-shop.f9761ab29bcbeeb8eff6.png",
+    "static/media/story-mate.png": "/timos-website1/static/media/story-mate.12360817f7a17870c6a7.png",
+    "static/media/1.jpg": "/timos-website1/static/media/1.b047c41420119cf6709f.jpg",
+    "static/media/fa-solid-900.ttf": "/timos-website1/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/timos-website1/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/timos-website1/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/timos-website1/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/timos-website1/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/timos-website1/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/timos-website1/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/timos-website1/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "static/media/slick.svg": "/timos-website1/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/timos-website1/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/timos-website1/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/timos-website1/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/timos-website1/index.html",
+    "main.d89a584e.css.map": "/timos-website1/static/css/main.d89a584e.css.map",
+    "main.43e4bad3.js.map": "/timos-website1/static/js/main.43e4bad3.js.map",
+    "453.0dbf037c.chunk.js.map": "/timos-website1/static/js/453.0dbf037c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d89a584e.css",
+    "static/js/main.43e4bad3.js"
+  ]
+}
